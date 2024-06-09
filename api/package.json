@@ -14,5 +14,11 @@
     "@types/node": "20.14.2",
     "eslint": "8.57.0",
     "typescript": "5.4.5"
+  },
+  "lint-staged": {
+    "*.(ts)": [
+      "eslint --cache --fix --max-warnings=0",
+      "prettier --write"
+    ]
   }
 }
