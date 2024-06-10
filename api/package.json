@@ -7,10 +7,10 @@
     "lint": "eslint --max-warnings=0 \"src/**/*.ts\" ",
     "check-types": "tsc --noEmit"
   },
-  "dependencies": {},
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
+    "@types/aws-lambda": "8.10.138",
     "@types/node": "20.14.2",
     "eslint": "8.57.0",
     "typescript": "5.4.5"

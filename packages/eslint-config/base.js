@@ -33,5 +33,7 @@ module.exports = {
     ".*.js",
     "node_modules/",
   ],
-  rules: {},
+  rules: {
+    "import/prefer-default-export": "off",
+  },
 };

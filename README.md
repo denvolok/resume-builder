@@ -1,3 +1,7 @@
+## Setup For Development
+
+- install [aws-cli](https://aws.amazon.com/cli/), [aws-sam](https://aws.amazon.com/serverless/sam/) in your system
+
 ## Project Design
 
 ### Requirements
